@@ -8,11 +8,10 @@ body {
 
 .header {
   text-align: center;
-  background-color: rgba(28, 156, 16, 0.9);
+  background: linear-gradient(135deg, #1c9c0e, #105c3a);
   height: 100%;
   padding-bottom: 10px;
-}
-
+ }
 .container {
   background-color: rgba(0, 0, 0, 0.9);
   color: white;
@@ -20,9 +19,31 @@ body {
   padding-bottom: 10px;
 }
 
-.body-text {
-  padding: 20px;
-}
+.button {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  padding: 8px 20px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #077009;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.15s ease;
+ }
+ 
+ .button:hover {
+  background-color: #066308;
+  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+  transform: translateY(-1px);
+ }
+ 
+ .button:active {
+  background-color: #055107;
+  box-shadow: 0 2px 4px rgba(50, 50, 93, 0.1), 0 1px 2px rgba(0, 0, 0, 0.08);
+  transform: translateY(0);
+ }
 
 .left {
   text-align: left;
